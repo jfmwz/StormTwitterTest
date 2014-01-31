@@ -5,6 +5,9 @@
     <groupId>StormTwitterTest</groupId>
     <artifactId>StormTwitterTest</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>CreditCart</module>
+    </modules>
     <packaging>pom</packaging>
 
     <distributionManagement>

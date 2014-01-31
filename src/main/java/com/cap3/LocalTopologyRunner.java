@@ -17,8 +17,8 @@ public class LocalTopologyRunner {
     LocalCluster localCluster = new LocalCluster();
     TopologyBuilder builder = new TopologyBuilder();
 
-    builder.setSpout("checkins", new Checkins());
-    builder.setBolt("geocode-lookup", new GeocodeLookup())
+    builder.setSpout("checkins", new Checkins(),4);
+    builder.setBolt("geocode-lookup", new GeocodeLookup(),8).setNumTasks(64)
         .shuffleGrouping("checkins");
     builder.setBolt("heatmap-builder", new HeatMapBuilder())
         .addConfiguration(Config.TOPOLOGY_TICK_TUPLE_FREQ_SECS, 3)
