@@ -21,13 +21,13 @@ public class Persistor extends BaseBasicBolt {
     private Jedis jedis;
     private ObjectMapper objectMapper;
 
+
     @Override
     public void prepare(Map stormConf,
                         TopologyContext context) {
         jedis = new Jedis("192.168.116.200");
         objectMapper = new ObjectMapper();
     }
-
     @Override
     public void execute(Tuple tuple,
                         BasicOutputCollector outputCollector) {
