@@ -27,7 +27,14 @@
             <version>0.9.0.1</version>
             <!-- <scope>provided</scope> -->
         </dependency>
+        <dependency>
+            <groupId>com.google.code.geocoder-java</groupId>
+            <artifactId>geocoder-java</artifactId>
+            <version>0.15</version>
+        </dependency>
+
     </dependencies>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
