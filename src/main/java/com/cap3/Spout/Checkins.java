@@ -1,4 +1,4 @@
-package com.cap3.TopologyDesign.Spout;
+package com.cap3.Spout;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;

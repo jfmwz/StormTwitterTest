@@ -1,4 +1,4 @@
-package com.cap3.TopologyDesign.Boult;
+package com.cap3.Boult;
 
 import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.BasicOutputCollector;
