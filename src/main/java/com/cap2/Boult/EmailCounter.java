@@ -1,4 +1,4 @@
-package com.cap2.TwitterCount.Boult;
+package com.cap2.Boult;
 
 import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.BasicOutputCollector;

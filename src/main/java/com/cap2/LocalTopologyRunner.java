@@ -1,4 +1,4 @@
-package com.cap2.TwitterCount;
+package com.cap2;
 
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
@@ -6,9 +6,9 @@ import backtype.storm.generated.StormTopology;
 import backtype.storm.topology.TopologyBuilder;
 import backtype.storm.tuple.Fields;
 import backtype.storm.utils.Utils;
-import com.cap2.TwitterCount.Boult.EmailCounter;
-import com.cap2.TwitterCount.Boult.EmailExtractor;
-import com.cap2.TwitterCount.Spout.CommitFeedListener;
+import com.cap2.Boult.EmailCounter;
+import com.cap2.Boult.EmailExtractor;
+import com.cap2.Spout.CommitFeedListener;
 
 /**
  * Created with IntelliJ IDEA.

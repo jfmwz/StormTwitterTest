@@ -1,4 +1,4 @@
-package com.cap2.TwitterCount.Spout;
+package com.cap2.Spout;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
